@@ -1,1 +1,26 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    
+    <link rel="stylesheet" href="/css/vendor-styles.css">
+    <link rel="stylesheet" href="/css/app-styles.css">
+    
+
+    
+    <script src="/js/vendor-scripts.js"></script>
+    <script src="/js/templates.js"></script>
+    <script src="/js/app-scripts.js"></script>
+    
+  </head>
+  <body ng-app="angular-adget">
+    <ion-side-menus>
+      <ui-view name="content"></ui-view>
+      <ui-view name="sidebar"></ui-view>
+    </ion-side-menus>
+  </body>
+</html>
